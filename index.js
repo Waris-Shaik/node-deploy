@@ -8,7 +8,7 @@ const cors = require('cors');  // cors
 server.use(cors());
 
 
-// connecting dataBase
+// connecting dataBase 
 connectDB();
 
 // middlewares
