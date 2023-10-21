@@ -17,7 +17,7 @@
         },
           {
             "src": "/api/v1/products/(.*)",
-            "des": "index.js"
+            "dest": "index.js"
           },
           {
             "src": "/(.*)",
