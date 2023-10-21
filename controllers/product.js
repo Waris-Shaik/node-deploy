@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const data = JSON.parse(fs.readFileSync( path.resolve(__dirname, '../data.json'),'utf-8'));
+const data = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../data.json'), 'utf-8'));
 const products = data;
 const model = require('../models/product');
 const Product = model.Product;
@@ -25,7 +25,7 @@ const isAuthenticated = ((req, res, next) => {
 
 
 
- 
+
 // create Product
 exports.createProduct = async (req, res) => {
     try {
